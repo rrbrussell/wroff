@@ -1,6 +1,22 @@
 [package]
-name = "new_roff"
+name = "wroff"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-2.0-only AND Apache-2.0"
+include = ["GPL-2.0.txt", "Apache-2.0.txt"]
+publish = false
+authors = ["Robert R. Russell <robert@rrbrussell.com>"]
+description = "A new web centric version of the classic roff tool"
+readme = "README.md"
+homepage = "https://www.rrbrussell.com/software/wroff"
+documentation = "https://www.rrbrussell.com/documentation/wroff"
+repository = "https://github.com/rrbrussell/wroff"
+
+[lint.rust]
+unsafe_code = "forbid"
+
+[[bin]]
+name = "wroff"
+
 
 [dependencies]
