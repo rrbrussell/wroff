@@ -18,5 +18,6 @@ unsafe_code = "forbid"
 [[bin]]
 name = "wroff"
 
+[lib]
 
 [dependencies]
