@@ -1,0 +1,95 @@
++++
+title = "Builtin_requests"
+date = 2024-08-21T18:59:23-05:00
+draft = false
++++
+
+## Alphabetical List of Requests
+
++ ab
++ ad
++ af
++ am
++ as
++ [begin_element](begin_element/)
++ bd
++ bp
++ br
++ c2
++ cc
++ ce
++ ch
++ cs
++ cu
++ da
++ de
++ di
++ ds
++ dt
++ ec
++ el
++ em
++ [end_element](end_element/)
++ eo
++ ev
++ ex
++ fc
++ fi
++ fl
++ fp
++ [ft](ft/)
++ fz
++ hc
++ hw
++ hy
++ ie
++ if
++ ig
++ in
++ [insert_element](insert_element/)
++ it
++ lc
++ lg
++ li
++ ll
++ ls
++ lt
++ mc
++ mk
++ na
++ ne
++ nf
++ nh
++ nm
++ nn
++ nr
++ ns
++ nx
++ os
++ pc
++ pi
++ pl
++ pm
++ pn
++ po
++ ps
++ rd
++ rm
++ rn
++ rr
++ rs
++ rt
++ [so](so/)
++ sp
++ ss
++ sv
++ ta
++ tc
++ ti
++ tl
++ tm
++ tr
++ uf
++ ul
++ vs
++ wh

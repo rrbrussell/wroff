@@ -8,6 +8,10 @@ draft = false
 
 This is the documentation home page for web roff.
 
+### [Builtin Requests](requests/)
+
+### [Builtin Defined Strings](defined_strings/)
+
 ## Commands
 
 ### soliem

@@ -14,5 +14,14 @@ program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street
 Fifth Floor, Boston, MA 02110-1301, USA.
 */
 
-static VERSION: str = env!("CARGO_PKG_VERSION");
-static NAME: str = env!("CARGO_PKG_NAME");
+//! Documentation for wroff(lib)
+
+#![cfg_attr(debug_assertions, allow(dead_code))]
+
+/// Information about registers.
+pub mod registers;
+
+/// The package version
+static VERSION: &str = env!("CARGO_PKG_VERSION");
+/// The package name
+static NAME: &str = env!("CARGO_PKG_NAME");

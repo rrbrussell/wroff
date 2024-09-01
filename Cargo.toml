@@ -17,7 +17,19 @@ unsafe_code = "forbid"
 
 [[bin]]
 name = "wroff"
+path = "src/main.rs"
+version = "0.0.1"
 
-[lib]
+[[bin]]
+name = "soelim"
+path = "src/bin/soelim.rs"
+version = "0.2.0"
 
 [dependencies]
+
+[dependencies.clap]
+version = ">=4.5.16"
+default-features = true
+features = ["derive"]
+
+[features]
