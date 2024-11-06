@@ -1,29 +1,24 @@
-[package]
-name = "wroff"
-version = "0.1.0"
-edition = "2021"
-license = "GPL-2.0-only AND Apache-2.0"
-include = ["GPL-2.0.txt", "Apache-2.0.txt"]
-publish = false
+[workspace]
+resolver = "2"
+
+[workspace.package]
 authors = ["Robert R. Russell <robert@rrbrussell.com>"]
-description = "A new web centric version of the classic roff tool"
-readme = "README.md"
-homepage = "https://www.rrbrussell.com/software/wroff"
+categories = ""
+description = "A new tool for making static websites."
 documentation = "https://www.rrbrussell.com/documentation/wroff"
+edition = "2021"
+exclude = [""]
+homepage = "https://www.rrbrussell.com/software/wroff"
+include = ["GPL-2.0.txt", "Apache-2.0.txt"]
+keywords = [""]
+license = "GPL-2.0-only AND Apache-2.0"
+publish = false
+readme = "README.md"
 repository = "https://github.com/rrbrussell/wroff"
+version = "0.1.0"
 
 [lint.rust]
 unsafe_code = "forbid"
-
-[[bin]]
-name = "wroff"
-path = "src/main.rs"
-version = "0.0.1"
-
-[[bin]]
-name = "soelim"
-path = "src/bin/soelim.rs"
-version = "0.2.0"
 
 [dependencies]
 

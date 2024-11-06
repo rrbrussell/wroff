@@ -17,3 +17,30 @@ Any required attributes for the element are set in the defined strings matching
 It is recommended to consult
 [the MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 about attributes for more details about which attributes are available.
+
+The supported elements are:
++ area
++ base
++ br
++ col
++ hr
++ img
++ link
++ meta
++ param
++ source
+
+## Examples
+
+### Setting the default viewport width
+**INPUT**
+```roff
+.ds meta-name viewport
+.ds meta-content "width=device-width, initial-scale=1.0"
+.insert_element meta
+```
+
+**OUTPUT**
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
